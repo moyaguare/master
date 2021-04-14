@@ -14,7 +14,7 @@ pipeline {
     }
       stage ('Build') {
       steps {
-      sh 'mvn clean --file prueba.pom'
+      echo 'This is a minimal pipeline.'
         }
     }
    }
